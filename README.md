@@ -1,4 +1,13 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created to look up an artist by name and find tickets for their upcoming shows (using Bandsintown's API).
+
+To clone:
+
+1. in terminal: mkdir NAME-OF-APP
+2. in terminal: cd NAME-OF-APP
+3. git clone https://github.com/kmsimmons/bandsintown-challenge.git
+4. npm/yarn install
+5. cd bandsintown-challenge
+6. npm/yarn start
 
 ## Available Scripts
 
