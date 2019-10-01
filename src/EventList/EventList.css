@@ -1,0 +1,85 @@
+.table {
+    width: 70%;
+    text-align: left;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+tr {
+    border: solid;
+    border-left: none;
+    border-right: none;
+    border-color: #ccc;
+    border-width: .5px;
+}
+
+tr:first-child {
+    border-top: none;
+}
+tr:last-child {
+    border-bottom: none;
+}
+
+.no-events {
+    text-align: center;
+}
+
+.venue {
+    font-weight: bold;
+    padding: 25px 0 25px 100px;
+    text-align: left;
+}
+
+
+.location {
+    padding: 25px 0;
+}
+
+.button {
+    background-color: white;
+    color: #259998;
+    border-radius: 3px;
+    border: 1px solid #259998;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 25px 0;
+}
+
+.button:hover {
+    background-color: #259998;
+    color: white;
+    cursor: pointer;
+}
+
+.date {
+    color: #259998;
+    font-weight: bold;
+    padding: 25px 0;
+}
+
+@media only screen and (max-width: 420px) {
+    .date, .location, .venue {
+        font-size: 10px;
+        text-align: left;
+        display: flex;
+        padding: 0;
+    }
+    .location {
+        padding-bottom: 10px;
+    }
+    .date {
+        padding-top: 20px;
+    }
+    .button {
+        padding: 5px 10px;
+        font-size: 11px;
+        border-radius: 5px;
+    }
+    .table {
+        width: 85%;
+    }
+}
